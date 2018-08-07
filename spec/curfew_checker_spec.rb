@@ -14,6 +14,10 @@ describe "#simple_curfew_checker" do
   end
 end
 
+
+
+
+
 describe "#curfew_checker" do
 
 
@@ -30,6 +34,11 @@ describe "#curfew_checker" do
     expect(curfew_checker(9)).to eq("Keep having fun!")
   end
 end
+
+
+
+
+
 
 describe "#complex_curfew_checker" do
 
@@ -48,6 +57,12 @@ describe "#complex_curfew_checker" do
   end
 end
 
+
+
+
+
+
+
 describe "#deluxe_curfew_checker" do 
 
   it "should say Time to apparate" do 
@@ -63,6 +78,11 @@ describe "#deluxe_curfew_checker" do
     expect(deluxe_curfew_checker(9)).to eq("You have 2 hour(s) left to keep having fun!")
   end
 end
+
+
+
+
+
 
 describe "#platinum_curfew_checker" do 
 
